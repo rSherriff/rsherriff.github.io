@@ -1,0 +1,30 @@
+
+.header{
+    margin-left: 30px;
+    margin-right: 200px;
+}
+
+.paper{
+    margin-left: 30px;
+    margin-right: 200px;
+}
+
+.mainNav{
+    margin-left: 30px;
+    margin-right: 200px;
+}
+
+.writingsList{
+    margin-left: 30px;
+    margin-right: 200px;
+}
+
+.resourceList{
+    margin-left: 30px;
+    margin-right: 200px;
+}
+.subResourceList{
+    margin-left: 20px;
+    margin-right: 200px;
+    line-height: 80%;
+}
