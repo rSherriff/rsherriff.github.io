@@ -1,56 +1,53 @@
 @font-face {
-    font-family: 'Courier Prime', monospace;
-    src: url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+  font-family: "Courier Prime", monospace;
+  src: url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
 }
 
 body {
-    background: #f0f0f0;
-    margin: 0;
+  background: #f0f0f0;
+  margin: 0;
 }
 
 body header {
-    margin: 0px;
-    padding: 0px;
-    height: 100%;
-    max-height: 100%;
-    background: #f0f0f0;
-    font-family: 'Courier Prime', monospace;
-    margin-top: 10%;
-    font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  max-height: 100%;
+  background: #f0f0f0;
+  font-family: "Courier Prime", monospace;
+  margin-top: 10%;
+  font-size: 20px;
 }
 
 body article {
-    margin: 50px;
-    padding: 0px;
-    height: 100%;
-    max-height: 100%;
-    background: #f0f0f0;
-    font-family: 'Courier Prime', monospace;
-    margin-top:  5%;
-    font-size: 20px;
+  margin: 50px;
+  padding: 0px;
+  height: 100%;
+  max-height: 100%;
+  background: #f0f0f0;
+  font-family: "Courier Prime", monospace;
+  font-size: 20px;
 }
 
 button {
-    font-size: 1.5em;
-    font-family: 'Courier Prime', monospace;
-    margin-top: 10px;
+  font-size: 1.5em;
+  font-family: "Courier Prime", monospace;
+  margin-top: 10px;
 }
 
-
 .navigation_menu {
-    margin: 5%;
-    text-align: Left;
+  margin: 5%;
+  text-align: Left;
 }
 
 .navigation_submenu {
-    text-align: left;
-    margin: 5%;
-    width: 90%;
+  text-align: left;
+  margin: 5%;
+  width: 90%;
 }
 
-
 /* Bitsy Game Styles */
-.bitsy_game{
-    width: 50%;
-    margin: 0 auto;
+.bitsy_game {
+  width: 50%;
+  margin: 0 auto;
 }
