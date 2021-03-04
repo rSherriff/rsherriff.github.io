@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../style.css">
+
+  <style>
+    .smaller {
+      font-size: 0.7em;
+    }
+  </style>
+</head>
+
+<body>
+  <article>
+    <h1 id="CategoryHeader"></h1>
+  </article>
+
+
+  <script>
+    async function getCategoryTitles(category) {
+      const url = "https://en.wikipedia.org/w/api.php?" +
+        new URLSearchParams({
+          origin: "*",
+          action: "query",
+          generator: "categorymembers",
+          gcmlimit: 500,
+          gcmtitle: "Category:" + category,
+          gcmtype: "page",
+          prop: "pageimages",
+          pilimit: 50,
+          pilicense: "any",
+          pithumbsize: 500,
+          format: "json",
+        });
+      console.log(url)
+      const resp = await fetch(url)
+      const data = await resp.json();
+      console.log(data)
+      return Promise.resolve([...new Set(Object.entries(data.query.pages).map(el => el[1]).filter(el => !el.title.includes('List')).map(el => el.title))]);
+    }
+
+
+    let categories = ['Lists of birds by location',
+      'Birds',
+      'Pigs',
+      'Dog breeds originating in the United States',
+      'Cats',
+      'Flightless birds',
+      'Best_Actor_Academy_Award_winners',
+      'Best_Actress_Academy_Award_winners',
+      'Pantheism',
+      'Fifth-generation_video_game_consoles',
+      'Sixth-generation_video_game_consoles',
+      'Seventh-generation_video_game_consoles',
+      'Walt_Disney_Animation_Studios_films',
+      'Pizza styles',
+      'Traffic signs',
+      'Physical exercise',
+      'Bathing',
+      'Human spaceflight',
+      'Blade weapons',
+      'Mysticism',
+      'Architectural history',
+      'Architecture',
+      'Cooking techniques',
+      'Coffee drinks',
+      'Soft drinks',
+      'Mixed drinks',
+      'Concept cars',
+      'Astronomical_objects_known_since_antiquity',
+      'Nintendo protagonists',
+      'Pokémon_species',
+      'Capcom protagonists',
+      'Male_characters_in_anime_and_manga',
+      'Female_characters_in_anime_and_manga',
+      'Dog types',
+      'Cat breeds',
+      'Mammal_common_names',
+      'Tool-using_mammals',
+      'Monsters_in_Greek_mythology',
+      'Birds',
+      'Advertising_characters',
+      'French pastries',
+      'Types of pasta',
+      'National_dishes',
+      'Jazz instruments',
+      'Keyboard instruments',
+      'Percussion instruments',
+      'String instruments',
+      'Woodwind instruments',
+      'Brass instruments',
+      'Electronic musical instruments',
+      'Musical instruments in art',
+      'Trees in mythology',
+      'Flora of Europe',
+      'Amphibians of North America',
+      'Mammals of the United States',
+      'Animals on the Internet',
+      'Fish of the United States',
+      'Deep sea fish',
+      'Birds of Africa',
+      'Birds of Southeast Asia',
+      'Traditional board games',
+      'Mythological objects',
+      'Fungi of North America',
+      'Fungi of Europe',
+      'Ball games',
+      'Archaeological artifacts',
+      'World Heritage Sites in the United States',
+      'Individual diamonds',
+      'Sacred rocks',
+      'Megalithic_monuments_in_Brittany',
+      'Illuminated manuscripts',
+      'Monoliths',
+      'Fictional undead',
+      'Toho Monsters',
+      'Child superheroes',
+      'Video game mascots',
+      'Fictional robots',
+      'Studio Ghibli animated films',
+      'Individual rooms',
+      'Individual space vehicles',
+      'Unique locomotives',
+      'Stolen works of art',
+      'Installation art works',
+      'Tapestries',
+      'Art vehicles',
+      'One-of-a-kind computers',
+      'Gold objects',
+      '1980s toys',
+      '1990s toys',
+      '1990s Nickelodeon original programming',
+      '2000s American teen sitcoms',
+      'Balls',
+      'Marvel Comics female superheroes',
+      'Marvel Comics male superheroes',
+      'Marvel Comics male supervillains',
+      'Marvel Comics female supervillains',
+      'Film sidekicks',
+      'Magical objects',
+      'Nymphs',
+      'Fictional gnomes',
+      'Urban legends',
+      'Mobile computers',
+      'Domestic implements',
+      'Kitchenware',
+      'Tools',
+      'Consumer electronics',
+      'Discontinued media formats',
+      'Super Smash Bros. fighters',
+      'IA-32 operating systems',
+      'Team sports',
+      'Terrestrial locomotion',
+      'Entertainment occupations',
+      'Performing arts',
+      'Physical exercise',
+      'Historic Civil Engineering Landmarks',
+      'Landmarks in France',
+      'Nature reserves',
+      'Beaches of Brazil',
+      'Magic symbols',
+      'Cola brands',
+      'Crabs',
+      '2010s_American_surreal_comedy_television_series',
+      'Adult Swim original programming',
+      'Typewriters',
+      'The Simpsons characters',
+      'Fictional characters who have made pacts with devils',
+      'The WB original programming',
+      'Edible fruits',
+      'Drupes',
+      'Digital audio players',
+      'Food services occupations',
+      'Folk costumes',
+      '2000s fashion',
+      '1990s fashion',
+      'Trousers_and_shorts',
+      'Jeans_by_type',
+      'Corporate_mascots',
+      'Goth subculture',
+      'Hasbro franchises',
+      'Fictional skeletons',
+      'Action film franchises',
+      'Goat breeds',
+      'Toilets',
+      'Hot dogs',
+      'Fast food',
+      'American sandwiches',
+      'PepsiCo soft drinks',
+      'Kingdom_Hearts_characters',
+      'Fictional dinosaurs',
+      '1990s fads and trends',
+      '1980s fads and trends',
+      '2000s fads and trends',
+      'Bears',
+      'Companies in the Dow Jones Industrial Average',
+      'Characters created by George Lucas',
+      'Pictograms',
+      'Candy',
+      'Mars confectionery brands',
+      'Yeast breads',
+      'Fictional tricksters',
+      'Looney Tunes characters',
+      'Species endangered by use as food',
+      'ESA endangered species',
+      'Hummingbird_species_of_South_America',
+      'Graphical_user_interfaces',
+    ];
+
+
+    // https://stackoverflow.com/a/19270021/4869657
+    function getRandom(arr, n) {
+      var result = new Array(n),
+        len = arr.length,
+        taken = new Array(len);
+      if (n > len)
+        throw new RangeError("getRandom: more elements taken than available");
+      while (n--) {
+        var x = Math.floor(Math.random() * len);
+        result[n] = arr[x in taken ? taken[x] : x];
+        taken[x] = --len in taken ? taken[len] : len;
+      }
+      return result;
+    }
+
+    function shuffle(array) {
+      var currentIndex = array.length, temporaryValue, randomIndex;
+
+      // While there remain elements to shuffle...
+      while (0 !== currentIndex) {
+
+        // Pick a remaining element...
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
+
+        // And swap it with the current element.
+        temporaryValue = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
+      }
+
+      return array;
+    }
+
+
+    var tempCats
+    var category
+
+    async function reset() {
+      tempCats = getRandom(categories, 1);
+      category = await getCategoryTitles(tempCats[0]);
+      console.log(category)
+      updatePage()
+    }
+
+    function updatePage() {
+      var randomIndex = Math.floor(Math.random() * category.length);
+      document.getElementById('CategoryHeader').innerHTML = `${getRandom(category, 1)[0].replace(/\(.*\)/g, '')} is an example of ${tempCats[0].replace(/_/g, ' ')}.`
+    }
+    reset();
+  </script>
+</body>
+
+</html>
