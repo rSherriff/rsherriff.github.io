@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../style.css" />
+
+    <style>
+      .smaller {
+        font-size: 0.7em;
+      }
+    </style>
+  </head>
+
+  <body>
+    <article>
+      <p>
+        WikiLinks takes the hassle out of browsing wikipedia by giving you just
+        the articles title and all the pages it links to. Happy Browsing!
+      </p>
+      <a id="randomArticleLink">Random Article</a>
+      <hr />
+      <h1 id="wikiPageTitle"></h1>
+      <h2 id="wikiPageDesc"></h2>
+      <ul id="wikiPageLinks"></ul>
+    </article>
+
+    <script src="https://unpkg.com/wtf_wikipedia"></script>
+    <script>
+      async function getRandomArticle() {
+        console.log("Getting random article");
+        url =
+          "https://en.wikipedia.org/w/api.php?origin=*&format=json&action=query&generator=random&grnnamespace=0&prop=revisions&rvprop=content&grnlimit=2";
+
+        const response = await fetch(url);
+        const data = await response.json();
+        title = Object.values(data.query.pages)[0].title;
+        return title;
+      }
+      function addListElement(ul, text) {
+        if (typeof text !== "undefined") {
+          let li = document.createElement("li");
+          li.innerHTML = `<a href='${
+            window.location.origin + window.location.pathname
+          }?article=${text}'>${text}</a>`;
+          ul.appendChild(li);
+        }
+      }
+
+      function getLinks(title) {
+        console.log(`Getting links for article: ${title}`);
+        document.querySelector("#wikiPageTitle").innerHTML = title;
+
+        wtf.fetch(title, function (err, doc) {
+          let ul = document.querySelector("#wikiPageLinks");
+
+          doc.links().map((l) => l.page());
+          doc.links().forEach((link) => addListElement(ul, link.data.page));
+        });
+      }
+
+      async function onPageLoad() {
+        document.querySelector("#randomArticleLink").href =
+          window.location.origin + window.location.pathname;
+
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        console.log(window.location);
+        if (urlParams.has("article")) {
+          getLinks(urlParams.get("article"));
+        } else {
+          title = await getRandomArticle();
+          getLinks(title);
+        }
+      }
+      onPageLoad();
+    </script>
+  </body>
+</html>
