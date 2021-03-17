@@ -1,21 +1,64 @@
 <!DOCTYPE html>
 
 <head>
-    <meta name="viewport" content="">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css">
+  <meta name="viewport" content="" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../style.css" />
 </head>
 
 <html>
+  <article>
+    <br /><br />
 
-<article><br><br>
+    <b>Richard Sherriff</b> is a games designer and programmer from London. They
+    hold a BSc in Computer Games Programming from Teesside University and an MA
+    in Games Design from the University of the Arts London.
+    <br />
+    <br />
+    :)
+    <br />
+    <p id="lastGithubActivity"></p>
+  </article>
 
-    <b>Richard Sherriff</b> is a games designer and programmer from London. They hold a BSc in Computer Games
-    Programming from Teesside University and an MA in Games Design from University of the Arts London.
-    <br>
-    <br> :)
-    <br>
-</article>
+  <script>
+    async function updateGithubActivity() {
+      url = "https://api.github.com/users/rSherriff/events?per_page=10";
 
+      const response = await fetch(url);
+      const data = await response.json();
+
+      let desiredEventFound = false;
+      while (!desiredEventFound && data.length > 0) {
+        if (data[0].type === "PushEvent") {
+          desiredEventFound = true;
+
+          date = new Date(data[0].created_at);
+
+          document.querySelector(
+            "#lastGithubActivity"
+          ).innerHTML = `His last GitHub Activity was a push to <b>${
+            data[0].repo.name
+          }</b> at <b>${
+            date.getHours() +
+            ":" +
+            date.getMinutes() +
+            " " +
+            date.getDate() +
+            "-" +
+            (date.getMonth() + 1) +
+            "-" +
+            date.getFullYear()
+          }</b>.`;
+
+          return;
+        } else {
+          data.shift();
+        }
+      }
+      console.log("No GitHub events found");
+    }
+
+    updateGithubActivity();
+  </script>
 </html>
