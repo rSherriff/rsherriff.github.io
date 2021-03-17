@@ -1,64 +1,73 @@
 <!DOCTYPE html>
 <html>
-
-<style>
+  <style>
     @font-face {
-        font-family: 'Inconsolata', monospace;
-        src: url('https://fonts.googleapis.com/css?family=Inconsolata');
+      font-family: "Inconsolata", monospace;
+      src: url("https://fonts.googleapis.com/css?family=Inconsolata");
     }
-    
+
     body {
-        margin: 50px;
-        padding: 00px;
-        height: 100%;
-        max-height: 100%;
-        background: #f0f0f0;
-        font-family: 'Inconsolata', monospace;
-        font-size: 20px;
+      margin: 50px;
+      padding: 00px;
+      height: 100%;
+      max-height: 100%;
+      background: #f0f0f0;
+      font-family: "Inconsolata", monospace;
+      font-size: 20px;
     }
-    
+
     .project {
-        margin: 50 auto;
+      margin: 50 auto;
     }
-    
+
     .accompanyingText {
-        width: 50%;
-        margin: 0 auto;
+      width: 50%;
+      margin: 0 auto;
     }
-    
+
     .button {
-        font-size: 1.5em;
-        font-family: 'Courier Prime', monospace;
+      font-size: 1.5em;
+      font-family: "Courier Prime", monospace;
     }
-</style>
+  </style>
 
-<head>
-    <meta name="viewport" content="">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css">
-</head>
+  <head>
+    <meta name="viewport" content="" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
 
-<body>
-    <div>
-        <br>
-        <br> This program procedurally generates covers of Faber poetry books.
-        <br>
-        <br>
+  <body>
+    <article>
+      <div>
+        <br />
+        <br />
+        This program procedurally generates covers of Faber poetry books.
+        <br />
+        <br />
 
-        <div><input type="button" id="btn" value="Refresh" class="button" />
+        <div>
+          <input type="button" id="btn" value="Refresh" class="button" />
 
-            <script>
-                function reload() {
-                    document.getElementById('p5').src += '';
-                }
-                btn.onclick = reload;
-            </script>
+          <script>
+            function reload() {
+              document.getElementById("p5").src += "";
+            }
+            btn.onclick = reload;
+          </script>
         </div>
-        <br>
-    </div>
-    <div class="project">
-        <iframe id='p5' src="https://editor.p5js.org/rSherriff/embed/NXNKye9_M" width="400px" height="600px" style="border:none;"></iframe>
-    </div>
-
-</body>
+        <br />
+      </div>
+      <div class="project">
+        <iframe
+          id="p5"
+          src="https://editor.p5js.org/rSherriff/embed/NXNKye9_M"
+          width="400px"
+          height="600px"
+          style="border: none"
+        ></iframe>
+      </div>
+    </article>
+  </body>
+</html>
