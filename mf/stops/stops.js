@@ -14,7 +14,6 @@ async function reset() {
     .then((response) => response.json())
     .then((json) => {
       document.querySelectorAll(".solution-grid-item").forEach((sgi) => {
-        console.log(count + " " + Math.floor(count / numAnswersInRow));
         answer = json.answers[Math.floor(count / numAnswersInRow)].data[count % numAnswersInRow];
         sgi.innerHTML = answer.text;
         sgi.style.backgroundColor = answer.color;
