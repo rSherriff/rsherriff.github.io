@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" />
+    <link rel="stylesheet" href="../../style.css" />
+
+    <style>
+        .stop-grid-container {
+          display: grid;
+          grid-template-columns: auto auto auto;
+          padding: 10px;
+        }
+        .stop-grid-item {
+          padding: 20px;
+          font-size: 30px;
+          text-align: center;
+          margin: 10%;
+          border-style: none;
+        }
+
+        .solution-grid-container {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+          padding: 10px;
+        }
+        .solution-grid-item {
+          padding: 20px;
+          font-size: 20px;
+          text-align: center;
+          margin: 10%;
+          border-style: none;
+        }
+        .number-grid-item {
+          padding: 20px;
+          font-size: 20px;
+          text-align: center;
+          margin: 10%;
+          border-style: none;
+        }
+        </style>
+  </head>
+  <body>
+    <article>
+        <p>
+            These boxes represent stops on an organ. <br> <br>
+            White is on and black is off. When you switch a stop it toggles between off and on.<br><br>
+            The rows at the bottom represent a sequence in which these stops are toggled.<br><br>
+            Each element in these rows represent the stop <strong>before</strong> it is toggled.<br><br>
+            Assuming you toggle the stops as you work through the rows, only <strong>one</strong> of the sequences is actually possible, which is it? <br><br>
+            (Disclaimer: I know nothing about organs :> )
+        </p>
+        <div class="stop-grid-container">
+            <!-- onclick="clickStop(0)" -->
+            <div class="stop-grid-item" id="cell0">Prestant 16′</div>
+            <div class="stop-grid-item" id="cell1">Bourdon 16′</div>
+            <div class="stop-grid-item" id="cell2">Lieblich Gedeckt 16′</div>
+            <div class="stop-grid-item" id="cell3">Voix Céleste 8′</div>
+            <div class="stop-grid-item" id="cell4">Open Diapason 8′</div>
+            <div class="stop-grid-item" id="cell5">Subbass 32′</div>
+          </div> 
+
+          <div class= "solution-grid-container">
+            <div class="number-grid-item">1.</div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+
+            <div class="number-grid-item">2.</div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+
+            <div class="number-grid-item">3.</div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+
+            <div class="number-grid-item">4.</div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+
+            <div class="number-grid-item">5.</div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+
+            <div class="number-grid-item">6.</div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+
+            <div class="number-grid-item">7.</div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+
+            <div class="number-grid-item">8.</div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+            <div class="solution-grid-item"></div>
+
+
+          </div>
+    </article>
+    <script src="./stops.js"></script>
+  </body>
+</html>
