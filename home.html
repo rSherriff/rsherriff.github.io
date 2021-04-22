@@ -11,9 +11,8 @@
   <article>
     <br /><br />
 
-    <b>Richard Sherriff</b> is a games designer and programmer from London. They
-    hold a BSc in Computer Games Programming from Teesside University and an MA
-    in Games Design from the University of the Arts London.
+    <b>Richard Sherriff</b> is a games designer and programmer from London. They hold a BSc in Computer Games Programming from Teesside University and an MA in
+    Games Design from the University of the Arts London.
     <br />
     <br />
     :)
@@ -34,21 +33,14 @@
           desiredEventFound = true;
 
           date = new Date(data[0].created_at);
+          let hours = date.getHours().toString();
+          while (hours.length < 2) hours = "0" + hours;
 
-          document.querySelector(
-            "#lastGithubActivity"
-          ).innerHTML = `His last GitHub Activity was a push to <b>${
-            data[0].repo.name
-          }</b> at <b>${
-            date.getHours() +
-            ":" +
-            date.getMinutes() +
-            " " +
-            date.getDate() +
-            "-" +
-            (date.getMonth() + 1) +
-            "-" +
-            date.getFullYear()
+          let minutes = date.getMinutes().toString();
+          while (minutes.length < 2) minutes = "0" + minutes;
+
+          document.querySelector("#lastGithubActivity").innerHTML = `His last GitHub Activity was a <b>push</b> to <b>${data[0].repo.name}</b> at <b>${
+            hours + ":" + minutes + " " + date.getDate() + "-" + (date.getMonth() + 1) + "-" + date.getFullYear()
           }</b>.`;
 
           return;
