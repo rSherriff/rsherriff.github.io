@@ -1,0 +1,3322 @@
+{
+	"head": {
+		"link": [],
+		"vars": ["name"]
+	},
+	"results": {
+		"distinct": false,
+		"ordered": true,
+		"bindings": [{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Anthony Burgess"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "David Jones"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Edward Thomas"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Elizabeth Jennings"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Ford Madox Ford"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Robert Graves"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Samuel Johnson"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Seamus Heaney"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Siegfried Sassoon"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Spike Milligan"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Stevie Smith"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Ted Hughes"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Thomas Gray"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Thomas Hardy"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "W. H. Auden"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Walter Raleigh"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Sir Walter Raleigh"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Wilfred Owen"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "William Blake"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "William Morris"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "William Wordsworth"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "William Herbert"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Arnold Wesker"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Sir Arnold Wesker"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Harold Massingham"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Thomas Campbell"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Adam Cornford"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Mike Jenkins"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Richard Garnett"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "W. R. Titterton"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Herbert Read"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "James Fenton"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Jamie McKendrick"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Jeannette Pickersgill"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Neil Rollinson"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Tom Lovatt-Williams"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Laurence Eusden"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "William Whitehead"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Giles Andreae"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Kevin Crossley-Holland"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Gay"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Alan Sillitoe"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Blind Harry"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Carol Ann Duffy"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Donald Davie"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Thomas Warton"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Tony Harrison"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Thomas Gisborne"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Edmund John"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Francis Berry"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Louis MacNeice"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Gawsworth"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Kenneth Allott"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Mathilde Blind"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Olivia Manning"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Philip O'Connor"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Kelly Grovier"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Shaun Lawton"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "R. F. Langley"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Alan Jenkins"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Alfred Thomas Story"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Carole Bromley"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Smith Clarke"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Roy MacGregor-Hastie"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Cyril Gwynn"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Oliver Reynolds"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Cengiz Da\u011Fc\u0131"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Charles Woodmason"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "George Keate"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Johan de Wit"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Robert Nugent Dunbar"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "George Crabbe"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Denham"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Joseph Dacre Carlyle"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Joseph Macleod"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Michael Edwards"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Nicholas Rowe"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Robert Ensor"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Roland Penrose"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Matthew Arnold"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Robert Conquest"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Thomas Woolner"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Alfred Noyes"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "CBE"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Charles Churchill"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Francis Meynell"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Hope Mirrlees"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Lady Mary Wroth"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Patrick Hore-Ruthven"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Norman MacCaig"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Huchoun"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Philip Sherrard"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Alfred Edward Housman"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Brian Aldiss"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Charles Williams"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Dylan Thomas"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Edward Bulwer-Lytton"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "The Lord Lytton"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Edward Lear"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Erasmus Darwin"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Gerard Manley Hopkins"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "J. R. R. Tolkien"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Donne"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Masefield"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Algernon Charles Swinburne"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Chris Newman"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Christopher Reid"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Elizabeth Clarke Wolstenholme Elmy"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Felicia Hemans"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Henry Carey"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "J. H. Prynne"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Owen Barfield"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Paul Robinson"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Peter Porter"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Thomas Sackville, 1st Earl of Dorset"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "The Earl of Dorset"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "W. H. Davies"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Clifford Dyment"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "George MacBeth"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Harold Monro"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Isaac Hawkins Browne"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "M. A. Griffiths"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Michael O'Neill"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Shaker Aamer"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Thomas Osbert Mordaunt"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Brian Howard"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Duncan Forbes"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Heywood"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Mark Ford"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Neil Oram"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Sarah Fuller Flower Adams"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Sarah Fuller Adams"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Sir Richard Fanshawe, 1st Baronet"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Eluned Phillips"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Hugh Gordon Porteus"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Mole"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Raymond Garlick"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Marjorie Boulton"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Ken George"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Ann Griffiths"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Dorothy Miles"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Francis W. Tancred"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "George Every"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Murray Lachlan Young"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Oswell Blakeston"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Vernon Lee"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "William Stewart Rose"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Martin Robertson"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Philip Oakes"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Westbrooke Chandler"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Jim Burns"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Philip Larkin"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Thomas More"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Sir Thomas More"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "David Miller"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Edward King"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Maurice Baring"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Thomas Percy"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Charles Hamilton Aid\u00E9"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Osborne"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Keith Bullen"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Ralph Chubb"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Ren\u00E9e Vivien"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Thomas Chatterton"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Bob Downes"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Jeremy Reed"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Graham Roos"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Kiran Millwood Hargrave"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Mark Grist"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Sean Street"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Olive Custance"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Olive Eleanor Custance"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Rowland Molony"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Ormond"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Sandra Gilbert"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Beatrice Hastings"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Pook"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Sebastian Barker"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Franz Baermann Steiner"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Andrew Waterhouse"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Bryn Griffiths"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Gohorry"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Stammers"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Nick Burbridge"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Nick Drake"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Reginald Hallward"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Armand D'Angour"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Chris Searle"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Alfred, Lord Tennyson"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "(FRS)"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "The Lord Tennyson"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Charles Boyle"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Chris Torrance"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Coventry Patmore"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Edith Sitwell"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Dame Edith Sitwell"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "George Colman the Elder"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "George Colman the Younger"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "George Colman"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Berger"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Hope"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Laurence Whistler"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Osbert Sitwell"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Sir Osbert Sitwell, Bt"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Sacheverell Sitwell"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Sir Sacheverell Sitwell, Bt"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Thom Gunn"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Walter de la Mare"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Billy Childish"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Doris Lessing"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Harold Pinter"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Dryden"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Henry Newman"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Lawrence Durrell"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Lord Alfred Douglas"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Malcolm Lowry"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Rowan Williams"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "The Lord Williams of Oystermouth"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Rupert Brooke"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Arthur Westlake Andrews"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Ann Kelley"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Abraham Cowley"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Basil Bunting"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Laurie Lee"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Richard Crashaw"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Hilaire Belloc"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Noor Inayat Khan"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Noor Inayat KhanGCCroix de guerre"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "William Bell Scott"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Dic Jones"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Stephen Haggard"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Christopher Ball"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Darryl Read"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Edward Rushton"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Harry Buxton Forman"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Nathaniel Martello-White"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Robert Graeme Galbraith"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Victor Musgrave"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Alexander Pope"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Margaret Cavendish, Duchess of Newcastle-upon-Tyne"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Montagu Slater"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Percy Bysshe Shelley"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Philip Sidney"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Sir Philip Sidney"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Samuel Taylor Coleridge"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "T. S. Eliot"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Vita Sackville-West"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Lady Nicolson"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "The Hon. Vita Sackville-West"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "William Collins"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "William Ernest Henley"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "William Ernest L. Henley"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Ronald Ross"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Sir Ronald Ross"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Bernard Kops"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Edwin Ellis"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Elizabeth Bartlett"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Henry Simpson"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Jeremy Clarke"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Justin Hulford"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Peter Sansom"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Simon Jackson"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "William Plomer"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Martin Walls"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "The Solvay Process"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Alistair Elliot"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Ian Duhig"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Whitworth"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Ken Smith"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Paul Roche"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Peter Bland"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Peter Scupham"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "William Scammell"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Milner Place"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Benjamin Zephaniah"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Charles Salvador"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Peter Sinfield"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "David Tibet"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Hegley"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Charles Thomson"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Cyril Scott"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "George Szirtes"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Alexander Barclay"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Cecil Day-Lewis"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Henry Vaughan"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Betjeman"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Sir John Betjeman"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Lascelles Abercrombie"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Robert Bridges"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Thomas Babington Macaulay, 1st Baron Macaulay"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "The Lord Macaulay"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Elizabeth Siddal"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Jacob Bronowski"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "James Sayers"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Thomas Hood"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Walter J. Turner"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "William Dunbar"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Arthur Hallam"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Arthur Symons"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Charles Cotton"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "George Chapman"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Crowne"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Nahum Tate"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Alan Ross"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Alfreda Benge"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Jeff Hilson"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Aiden Shaw"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Thomas of Britain"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Aeronwy Thomas"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "David Dabydeen"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Fred D'Aguiar"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "T. Llew Jones"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Alan Rook"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Anthony Joseph"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Spike Hawkins"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Susan Miles"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Theodore Wratislaw"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Peter Wyton"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Frances Leviston"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Albert Midlane"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Luke Kennard"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Anna Maria Porter"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Charlotte Lennox"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Christina Rossetti"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Keble"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Rayner Heppenstall"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "William Thomas"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Patrick Creagh"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "E. J. Thribb"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "William Perfect"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Ahren Warner"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Martyn Crucefix"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Robert Sheppard"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "William James Linton"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Adrian Henri"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Arthur Boyars"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "B. S. Johnson"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Bryan Stanley Johnson"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Caroline Elizabeth Sarah Norton"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "E. A. Markham"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "E. A. \"Archie\" Markham"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Edward Fairfax"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Elijah Fenton"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Ernest Charles Jones"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "F. T. Prince"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Francis King"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Henry Constable"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Iris Tree"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Jack Clemo"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Jack Lindsay"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Cournos"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Maurice Hewlett"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Michael Hamburger"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Moniza Alvi"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Nancy Cunard"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Vernon Watkins"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "William Canton"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "William Kean Seymour"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "William Laidlaw"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Robert W. Service"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Robert Service"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Rety"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Francis Prevost"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "William Brockie"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Daljit Nagra"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Hal Duncan"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Nigel Jenkins"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Alexander Neckam"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Allan Cunningham"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Arthur Hugh Clough"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Arthur H. Clough"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Charles Lamb"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Colley Cibber"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Dannie Abse"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Geoffrey Dearmer"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "James Macpherson"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Jock Purdon"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Burgon"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Joseph Blanco White"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Laurence Alma-Tadema"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Leigh Hunt"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Michael Drayton"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Richard Chenevix Trench"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Robert Dodsley"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Samuel Rogers"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Adrian Brown"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Edward Herbert, 1st Baron Herbert of Cherbury"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Edward Lucie-Smith"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Itzik Manger"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Langhorne"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Richard Roderick"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Tony Curtis"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Walter Harte"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "William Hampton"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Allen Upward"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Charles Fisher"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Christopher James"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Evan Jones"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Glyn Maxwell"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "James Burton Robertson"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Agard"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Richard Ryan"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Robert Burns"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Rogan Whitenails"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Dick Davis"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Julian Jay Savarin"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Herbert Lomas"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Isidore Gordon Ascher"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Samuel Wesley"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Thomas Medwin"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Adam Fox"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Arthur Cravan"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Pudney"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Patric Dickinson"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Patrick Bront\u00EB"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Richard Owen Cambridge"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Vivien Greene"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Keston Sutherland"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Richard Marggraf Turley"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Sir Stephen Spender"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Stephen Spender"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Anna Mendelssohn"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Elizabeth Moody"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Eugenius Roche"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Henry James Pye"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Terence Tiller"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Brian Jones"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "James Byrne"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Lehmann"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Laurence Lerner"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Paul West"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Frieda Hughes"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Ian Monk"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Robert Shaw"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Joolz Denby"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Alexis Lykiard"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Claire Tr\u00E9vien"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Dennis Wilson"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Helen Mort"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Warsan Shire"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "\u0648\u0631\u0633\u0627\u0646 \u0634\u0631\u0649"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Dollie Radford"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Edmund Beale Sargant"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "George Valentine"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Patrick McGuinness"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Brian Keeble"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Roy Fisher"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Buxton"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Fletcher"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Matilda Betham-Edwards"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Andrew Crozier"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Pearl Poet"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Arthur O'Shaughnessy"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Linton Kwesi Johnson"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Patrick Abercrombie"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Sir Patrick Abercrombie"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Charles Dalmon"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Ian Iqbal Rashid"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Susan Bassnett"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Theo Marzials"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "William Thomas Fitzgerald"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Phil Bowen"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Jeremy Brooks"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Stephen Knight"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Harry Smart"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Gilbert Cooper"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Richard Percival Lister"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "R. P. ListerFRSL"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "John Liddell Kelly"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Tessa Biddington"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Joe Dunthorne"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Jim MacCool"
+				}
+			},
+			{
+				"name": {
+					"type": "literal",
+					"xml:lang": "en",
+					"value": "Deben Bhattacharya"
+				}
+			}
+		]
+	}
+}
