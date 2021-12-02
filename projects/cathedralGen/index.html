@@ -1,0 +1,36 @@
+<!DOCTYPE html><html lang="en"><head>
+    <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <link rel="stylesheet" href="../../style.css" />
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+    <article>
+    <br> This program procedurally generates floorplans of Cathedrals in (exaggerated) Northern French and English
+        manners.
+        <br>
+        <br>
+        <br>
+
+        <div><input type="button" id="btn" value="Refresh" class="button" />
+        </article>
+
+            <script>
+                function reload() {
+                    setup();
+                }
+                btn.onclick = reload;
+            </script>
+    <script src="utilities.js"></script>
+    <script src="vault_generator.js"></script>
+    <script src="transept_generator.js"></script>
+    <script src="wall_generator.js"></script>
+    <script src="pier_generator.js"></script>
+    <script src="apse_generator.js"></script>
+    <script src="tower_generator.js"></script>
+    <script src="ribbing_generator.js"></script>
+    <script src="sketch.js"></script>
+  
+
+</body></html>
