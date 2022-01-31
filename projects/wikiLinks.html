@@ -47,7 +47,6 @@
       }
 
       function getLinks(title) {
-        console.log(`Getting links for article: ${title}`);
         document.querySelector("#wikiPageTitle").innerHTML = title;
 
         wtf.fetch(title, function (err, doc) {
@@ -64,7 +63,7 @@
 
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
-        console.log(window.location);
+
         if (urlParams.has("article")) {
           getLinks(urlParams.get("article"));
         } else {
