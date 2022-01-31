@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .numInputRect {
+            margin:10px
+        }
+        .hintButton {
+            font-size: 0.5em;
+            font-family: "Courier Prime", monospace;
+            margin-top: 1px;
+            }
+    </style>
+</head>
+
+<body>
+    <article>
+        <div class ="numInputRect">
+            1. <input id="numb"> 
+            <span hidden id="tick">
+                ✅
+            </span>
+            <span hidden id="cross">
+                ❌
+            </span>  
+            <button 
+                class="hintButton" 
+                onclick="document.getElementById( 'hint1' ).hidden = !document.getElementById( 'hint1' ).hidden"
+                >
+                Show Hint
+            </button>
+            <p id="hint1" hidden>
+                Hint!
+            </p>  
+        </div>
+        <div class ="numInputRect">
+            2. <input id="numb">
+            <span hidden id="tick">
+                ✅
+            </span>
+            <span hidden id="cross">
+                ❌
+            </span>
+            <button 
+                class="hintButton" 
+                onclick="document.getElementById( 'hint2' ).hidden = !document.getElementById( 'hint2' ).hidden"
+                >
+                Show Hint
+            </button>
+            <p id="hint2" hidden>
+                Hint!
+            </p>         
+        </div>
+        <div class ="numInputRect">
+            3. <input id="numb">
+            <span hidden id="tick">
+                ✅
+            </span>
+            <span hidden id="cross">
+                ❌
+            </span>
+            <button 
+                class="hintButton" 
+                onclick="document.getElementById( 'hint3' ).hidden = !document.getElementById( 'hint3' ).hidden"
+                >
+                Show Hint
+            </button>
+            <p id="hint3" hidden>
+                Hint!
+            </p>  
+        </div>
+        <div class ="numInputRect">
+            4. <input id="numb">
+            <span hidden id="tick">
+                ✅
+            </span>
+            <span hidden id="cross">
+                ❌
+            </span>
+            <button 
+                class="hintButton" 
+                onclick="document.getElementById( 'hint4' ).hidden = !document.getElementById( 'hint4' ).hidden"
+                >
+                Show Hint
+            </button>
+            <p id="hint4" hidden>
+                Hint!
+            </p>  
+        </div>
+        <div class ="numInputRect">
+            5. <input id="numb">
+            <span hidden id="tick">
+                ✅
+            </span>
+            <span hidden id="cross">
+                ❌
+            </span> 
+            <button 
+                class="hintButton" 
+                onclick="document.getElementById( 'hint5' ).hidden = !document.getElementById( 'hint5' ).hidden"
+                >
+                Show Hint
+            </button>
+            <p id="hint5" hidden>
+                Hint!
+            </p> 
+        </div>
+        <div class ="numInputRect">
+            6. <input id="numb">
+            <span hidden id="tick">
+                ✅
+            </span>
+            <span hidden id="cross">
+                ❌
+            </span>
+            <button 
+                class="hintButton" 
+                onclick="document.getElementById( 'hint6' ).hidden = !document.getElementById( 'hint6' ).hidden"
+                >
+                Show Hint
+            </button>
+            <p id="hint6" hidden>
+                Hint!
+            </p>  
+        </div>
+        <div class ="numInputRect">
+            7. <input id="numb">
+            <span hidden id="tick">
+                ✅
+            </span>
+            <span hidden id="cross">
+                ❌
+            </span>
+            <button 
+                class="hintButton" 
+                onclick="document.getElementById( 'hint7' ).hidden = !document.getElementById( 'hint7' ).hidden"
+                >
+                Show Hint
+            </button>
+            <p id="hint7" hidden>
+                Hint!
+            </p>  
+        </div>
+
+        <button type="button" onclick="check()">Submit</button>
+
+    </article>
+
+
+
+    <script>
+    function check() {
+
+    ans = [1,1,1,1,1,1,1]
+
+    x = document.getElementById("numb").value;
+    inputs = document.querySelectorAll(".numInputRect")
+    count = 0
+    inputs.forEach(e => {
+        if(e.querySelector("#numb").value == ans[count]) {
+            e.querySelector("#numb").value = ans[count]
+            e.querySelector("#tick").hidden = false
+            e.querySelector("#cross").hidden = true
+        }
+        else {
+            e.querySelector("#numb").value = e.querySelector("#numb").value 
+            e.querySelector("#tick").hidden = true
+            e.querySelector("#cross").hidden = false
+        }
+        count += 1
+    });
+    }
+    </script>
+
+</body>
