@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+
+  <body>
+    <article>
+      <h2>Inbound</h2>
+      <ul id="inboundArrivalList"></ul>
+      <h2>Outbound</h2>
+      <ul id="outboundArrivalList"></ul>
+    </article>
+
+    <script>
+      async function tflTest() {
+        url = "https://api.tfl.gov.uk/Line/dlr/Arrivals/940GZZDLCYP";
+
+        const response = await fetch(url);
+        const data = await response.json();
+
+        let desiredEventFound = false;
+        while (!desiredEventFound && data.length > 0) {
+          let ul =
+            data[0].direction === "inbound"
+              ? document.querySelector("#inboundArrivalList")
+              : document.querySelector("#outboundArrivalList");
+
+          let li = document.createElement("li");
+          li.innerHTML = data[0].expectedArrival;
+          ul.appendChild(li);
+
+          data.shift();
+        }
+      }
+
+      tflTest();
+    </script>
+  </body>
+</html>
