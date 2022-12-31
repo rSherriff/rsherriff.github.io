@@ -440,6 +440,7 @@ a:hover {
 
 .quote__content {
   margin: 0;
+  font-size: 23px;
 }
 
 .quote__content::before {
